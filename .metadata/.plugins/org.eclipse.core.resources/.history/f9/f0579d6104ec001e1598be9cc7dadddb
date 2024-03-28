@@ -1,0 +1,5 @@
+package com.jpa.map.Dto;
+
+public class TeacherDto {
+
+}

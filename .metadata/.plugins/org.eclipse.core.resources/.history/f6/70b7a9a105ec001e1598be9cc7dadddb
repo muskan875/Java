@@ -1,0 +1,5 @@
+package com.jpa.map.Controller;
+
+public class StudentController {
+
+}

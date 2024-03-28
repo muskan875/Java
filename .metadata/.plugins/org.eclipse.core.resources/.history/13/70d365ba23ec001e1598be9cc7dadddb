@@ -1,0 +1,5 @@
+package com.jpa.student.Entity;
+
+public class Student {
+
+}

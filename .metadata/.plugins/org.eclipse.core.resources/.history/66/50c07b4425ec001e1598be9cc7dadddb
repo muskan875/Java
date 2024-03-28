@@ -1,0 +1,5 @@
+package com.jpa.student.Controller;
+
+public class StudentController {
+
+}

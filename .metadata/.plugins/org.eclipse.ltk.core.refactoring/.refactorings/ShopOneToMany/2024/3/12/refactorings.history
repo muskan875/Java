@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.jpa.book&apos; to &apos;com.jpa.shop&apos;&#x0A;- Original project: &apos;ShopOneToMany&apos;&#x0A;- Original element: &apos;ShopOneToMany/src/main/java/com.jpa.book&apos;&#x0A;- Renamed element: &apos;ShopOneToMany/src/main/java/com.jpa.shop&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.jpa.book&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jpa.book" name="com.jpa.shop" qualified="false" references="true" stamp="1711013231314" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.jpa.admin.Controller;
+
+public class UserController {
+
+}
