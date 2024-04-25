@@ -1,5 +1,0 @@
-package com.jpa.admin.Dto;
-
-public class UserDto {
-
-}

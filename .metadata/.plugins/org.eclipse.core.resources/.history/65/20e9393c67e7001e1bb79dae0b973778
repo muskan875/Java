@@ -1,5 +1,0 @@
-package com.jpa.shop.Repository;
-
-public class ItemRepository {
-
-}

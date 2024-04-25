@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Service;
-
 import com.jpa.admin.Dto.AdminDto;
+import com.jpa.admin.Dto.UserDto;
 import com.jpa.admin.Entity.Admin;
+import com.jpa.admin.Entity.User;
 import com.jpa.admin.Repository.AdminRepository;
 
 
@@ -27,13 +27,13 @@ public class AdminService {
 
 		List<User> userList = new ArrayList<>();
 		
-		for(User userdto : admindto.getUser()) {
+		for(UserDto userDto : admindto.getUser()) {
 			
-			User user = modelMapper.map(userdto, User.class);
-//			user.setAdmin(admin);
+			User user = modelMapper.map(userDto, User.class);
+			user.setAdmin(admin);
 			userList.add(user);
 		}
-//		admin.setUser(userList);
+		admin.setUser(userList);
 		return adminRepository.save(admin);
 	}
 	
@@ -45,3 +45,5 @@ public class AdminService {
 		return admin;
 	}
 }
+
+

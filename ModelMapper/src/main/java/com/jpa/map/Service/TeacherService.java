@@ -7,6 +7,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.jpa.map.Dto.StudentDto;
 import com.jpa.map.Dto.TeacherDto;
 import com.jpa.map.Entity.Student;
 import com.jpa.map.Entity.Teacher;
@@ -49,7 +50,7 @@ public class TeacherService {
 	    
 	    List<Student> studentList = new ArrayList<>();
 	    
-	    for(Student studentDto: teacherDto.getStudent()) {
+	    for(StudentDto studentDto: teacherDto.getStudent()) {
 	    	
 	    	Student student = modelMapper.map(studentDto, Student.class);
 	    	student.setTeacher(teacher);

@@ -1,5 +1,0 @@
-package com.jpa.map.Repository;
-
-public interface StudentRepository {
-
-}
